@@ -3,7 +3,7 @@ class UrlCompressor:
         pass
 
     def compress(self, url: str) -> bytes:
-        pass
+        return url.encode()
 
     def decompress(self, bytes_: bytes) -> str:
-        pass
+        return bytes_.decode()
